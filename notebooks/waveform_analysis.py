@@ -20,7 +20,7 @@ class WaveformAnalyzer:
 
     def find_audio_files(self):
         """Find and categorize audio files"""
-        print("🔍 Searching for audio files...")
+        print(" Searching for audio files...")
 
         audio_extensions = ['*.wav', '*.mp3', '*.flac', '*.m4a']
 
@@ -53,7 +53,7 @@ class WaveformAnalyzer:
 
     def create_waveform_comparison(self):
         """Create waveform comparison plots"""
-        print("🌊 Creating waveform analysis...")
+        print(" Creating waveform analysis...")
 
         # Create output folder
         output_dir = Path(self.data_path) / "plots"
